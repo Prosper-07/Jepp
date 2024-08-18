@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi"
+    />
+    <title>JEPP - Personal Portfolio Website</title>
+    <link rel="icon" type="image/png" href="images/only logo.png" />
+    <link rel="stylesheet" href="css/font-awesome-pro.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/scroll_button.css" />
+    <link rel="stylesheet" href="css/plugin.css" />
+    <link rel="stylesheet" href="css/spacing.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body>
+    <!--================================
+    PRELOADER START
+=================================-->
+    <div class="preloader">
+      <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+        <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+      </svg>
+      <h5 class="preloader-text">Loading</h5>
+    </div>
+    <!--================================
+    PRELOADER END
+=================================-->
+    <!--================================
+        MENU START
+    =================================-->
+    <nav class="navbar navbar-expand-lg main_menu">
+      <div class="container main_menu_bg">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo1.png" alt="ZYAN" class="img-fluid w-100" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-sharp fa-regular fa-bars bar_icon"></i>
+          <i class="fa-regular fa-xmark close_icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton active" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#about">about us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#service">services
+              </a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="contact.html">contact
+              </a>
+            </li>
+          </ul>
+          <span class="toggle_icon c-pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-sharp fa-sharp fa-regular fa-bars bar_icon-staggered"></i></span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+      <div class="offcanvas-header">
+        <!-- <a class="offcanvas-logo" href="index_2.html"> -->
+          <img src="images/logo1.png" alt="JEPP" class="img-fluid w-100" />
+        </a>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="fa-regular fa-xmark"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="tf__design_form offcanvas_form">
+          <div class="offcanvas-content-box">
+            <!-- <h4 class="offcanvas_title"></h4> -->
+            <p>
+              I will love to hear from you! Whether you have a question, need assistance, or want to discuss a potential project, feel free to reach out. I am here to help and i'm committed to providing you with the best possible support. You can contact me through the form below, or connect with me via email or phone. I look forward to collaborating with you and bringing your ideas to life!
+            </p>
+          </div>
+          <div class="offcanvas_contact_form">
+            <h4 class="offcanvas_title">Get In Touch</h4>
+            <form action="#">
+              <input
+                type="text"
+                placeholder="Your Name"
+                aria-autocomplete="list"
+              />
+              <input type="email" placeholder="Your Email" />
+              <textarea rows="4" placeholder="Message"></textarea>
+              <button type="submit" class="common_btn">submit now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--================================
+        MENU END
+    =================================-->
+
+    <!--================================
+        BREADCRUMB START
+    =================================-->
+    <section
+      class="tf__breadcrumb banner"
+      style="background: url(images/bg/breadcrumb.jpg)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="tf__breadcrum_text">
+              <h1>Contact</h1>
+              <ul class="page-breadcrumb">
+                <li>
+                  <a href="index.html" class="text_hover_animaiton">Home</a>
+                </li>
+                <li>Contact</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        BREADCRUMB END
+    =================================-->
+
+    <!--================================
+        CONTACT START
+    =================================-->
+    <section class="tf__contact pt_110 xs_pt_70 pb_120 xs_pb_80">
+      <div class="container">
+        <div class="tf__section_heading pb_40">
+          <h5 class="has-animation">Get In Touch</h5>
+          <h2 class="has-animation">
+            Let’s discuss <br />
+            about a project!
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-xl-7 col-lg-7">
+            <div class="tf__contact_form_area">
+              <form action="#">
+                <div class="row">
+                  <div class="col-xl-6">
+                    <input type="text" placeholder="Your Name*" />
+                  </div>
+                  <div class="col-xl-6">
+                    <input type="email" placeholder="Your Email*" />
+                  </div>
+                  <div class="col-xl-6">
+                    <input type="text" placeholder="Phone Number*" />
+                  </div>
+                  <div class="col-xl-6">
+                    <input type="text" placeholder="Your Website*" />
+                  </div>
+                  <div class="col-xl-12">
+                    <textarea
+                      rows="7"
+                      placeholder="Write Your Message Here*"
+                    ></textarea>
+                    <button class="common_btn" type="submit">Send Mail</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-5">
+            <div class="tf__contact_map">
+              <iframe
+                src="https://www.google.com/maps/place/Karimu+Laka+St,+Alimosho,+Lagos+102213,+Lagos/data=!4m2!3m1!1s0x103b904953c1962d:0x3d218df48e6ca9f7?sa=X&ved=1t:242&ictx=111"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        CONTACT END
+    =================================-->
+
+    <!--================================
+        SUBSCRIBE START
+    =================================-->
+    <div class="tf__subscribe" style="background: url(images/bg/subscribe.jpg)">
+      <div class="tf__subscribe_overlay pt_115 xs_pt_75 pb_120 xs_pb_80">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-8 col-md-10 m-auto">
+              <div class="tf__subscribe_text">
+                <h3 class="has-animation">SUBSCRIBE MY NEWSLETTER</h3>
+                <form action="#">
+                  <input type="text" placeholder="Enter Your Email" />
+                  <button type="submit" class="common_btn">Notify Now</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--================================
+        SUBSCRIBE END
+    =================================-->
+
+    <!--================================
+        FOOTER START
+    =================================-->
+    <footer class="footer" id="footer">
+      <div class="footer-container">
+        <div class="pt_120 xs_pt_80 sm_pt_80">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="tf__footer_content fade_right" data-trigerid="footer" data-stagger=".25">
+                  <div class="icon">
+                    <div class="icon-contianer">
+                      <img src="svg/map.svg" alt="footer" class="img-fluid w-100 svg">
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>Address</h3>
+                    <p>15, Karimu Laka Street, Egbeda, Lagos, Nigeria.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="tf__footer_content fade_right" data-trigerid="footer" data-stagger=".25">
+                  <div class="icon">
+                    <div class="icon-contianer">
+                      <img src="svg/phone.svg" alt="footer" class="img-fluid w-100 svg">
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>Lets talk us</h3>
+                    <a href="">(+234) 806-962-3404</a>
+                    <a href="">(+234) 906-895-6672</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="tf__footer_content fade_right" data-trigerid="footer" data-stagger=".25">
+                  <div class="icon">
+                    <div class="icon-contianer">
+                      <img src="svg/envelope.svg" alt="footer" class="img-fluid w-100 svg">
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>Send us email</h3>
+                    <a href="mailto:perespade1@gmail.com">perespade1@gmail.com</a>
+                    <a href="mailto:karlkid04@gmail.com">karlkid04@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="tf__footer_copyright">
+                  <p>© Jeppcreations 2024 | All Rights Reserved</p>
+                  <ul>
+                    <li>
+                      <a href="#" class="text_hover_animaiton">Terms & Condition</a>
+                    </li>
+                    <li>
+                      <a href="#" class="text_hover_animaiton">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="#" class="text_hover_animaiton">Sitemap</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+ 
+       
+    <!--================================
+        FOOTER END
+    =================================-->
+
+    <!--================================
+        SCROLL BUTTON START
+    =================================-->
+    <div class="progress active">
+      <svg
+        class="progress-svg"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+      </svg>
+    </div>
+    <!--================================
+        SCROLL BUTTON END
+    =================================-->
+    <!--================================
+        CURSOR START
+    =================================-->
+    <div id="magic-cursor">
+      <div id="ball"></div>
+    </div>
+    <!--================================
+        CURSOR END
+    =================================-->
+
+    <script src="js/plugin.js"></script>
+    <!--scroll button js-->
+    <script src="js/scroll_button.js"></script>
+    <!--sticky sidebar js-->
+    <script src="js/sticky_sidebar.js"></script>
+    <!-- Animation -->
+    <script src="js/animation.js"></script>
+    <!--main/custom js-->
+    <script src="js/main.js"></script>
+  </body>
+</html>

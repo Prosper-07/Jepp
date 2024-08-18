@@ -1,0 +1,666 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi">
+    <title>JEPP - Personal Portfolio Website</title>
+    <link rel="icon" type="image/png" href="images/only logo.png">
+    <link rel="stylesheet" href="css/font-awesome-pro.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/scroll_button.css">
+    <link rel="stylesheet" href="css/plugin.css">
+    <link rel="stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+
+  <body>
+    <!--================================
+        PRELOADER START
+    =================================-->
+    <!-- <div class="preloader">
+      <svg viewbox="0 0 1000 1000" preserveaspectratio="none">
+        <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+      </svg>
+      <h5 class="preloader-text">Loading</h5>
+    </div> -->
+    <!--================================
+        PRELOADER END
+    =================================-->
+    <!--================================
+        MENU START
+    =================================-->
+    <nav class="navbar navbar-expand-lg main_menu">
+      <div class="container main_menu_bg">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo1.png" alt="Jepp" class="img-fluid w-100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-sharp fa-regular fa-bars bar_icon"></i>
+          <i class="fa-regular fa-xmark close_icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton active" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#about">about us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#service">services
+              </a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="contact.html">contact
+              </a>
+            </li>
+          </ul>
+          <span class="toggle_icon c-pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-sharp fa-sharp fa-regular fa-bars bar_icon-staggered"></i></span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+      <div class="offcanvas-header">
+        <!-- <a class="offcanvas-logo" href="index_2.html"> -->
+          <img src="images/logo1.png" alt="JEPP" class="img-fluid w-100" />
+        </a>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="fa-regular fa-xmark"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="tf__design_form offcanvas_form">
+          <div class="offcanvas-content-box">
+            <!-- <h4 class="offcanvas_title"></h4> -->
+            <p>
+              I will love to hear from you! Whether you have a question, need assistance, or want to discuss a potential project, feel free to reach out. I am here to help and i'm committed to providing you with the best possible support. You can contact me through the form below, or connect with me via email or phone. I look forward to collaborating with you and bringing your ideas to life!
+            </p>
+          </div>
+          <div class="offcanvas_contact_form">
+            <h4 class="offcanvas_title">Get In Touch</h4>
+            <form action="#">
+              <input
+                type="text"
+                placeholder="Your Name"
+                aria-autocomplete="list"
+              />
+              <input type="email" placeholder="Your Email" />
+              <textarea rows="4" placeholder="Message"></textarea>
+              <button type="submit" class="common_btn">submit now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--================================
+        MENU END
+    =================================-->
+
+    <!--================================
+        BANNER START
+    =================================-->
+    <section class="tf__banner banner" style="background: url(images/bg/banner.jpg)">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xl-6 col-lg-8">
+            <div class="tf__banner_text">
+              <h1>
+                Hi, it's JEPP! A Creative
+                <span class="cd-headline rotate-1">
+                  <!-- ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  -->
+                  <span class="cd-words-wrapper">
+                    <b class="is-visible">Designer</b>
+                    <b>Developer</b>
+                    <b>Coder</b>
+                  </span>
+                </span>
+              </h1>
+              <p>
+                I'm a passionate website developer with a passion for creating visually appealing and user-friendly web experiences. Proficient in HTML, CSS, and Bootstrap, I excel in building responsive and modern websites that cater to diverse client needs. My foundational knowledge of JavaScript allows me to implement interactive features, enhancing the overall functionality of my projects. With a keen eye for design and a commitment to delivering high-quality work, I am dedicated to transforming ideas into engaging digital solutions. Whether collaborating with clients or working independently, I consistently strives for excellence in every aspect of web development.
+              </p>
+              <ul>
+                <li>
+                  <a class="common_btn" href="cv.pdf">Download Cv <i class="fa-solid fa-arrow-down-to-line"></i></a>
+                </li>
+                <!-- <li>
+                  <a class="banner_video_btn play_btn" href="https://www.youtube.com/watch?v=B-ytMSuwbf8"><i class="fa-sharp fa-solid fa-circle-play"></i> Watch the
+                    Video</a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="col-xl-5 col-lg-4">
+            <div class="tf__banner_img">
+              <div class="img">
+                <img src="images/fly.PNG" alt="JEPP" class="img-fluid w-100">
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <!--================================
+        BANNER END
+    =================================-->
+    <!--================================
+        SERVICE START
+    =================================-->
+    <section class="tf__service pt_130 xs_pt_80" id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 m-auto">
+            <div class="tf__section_heading mb_40">
+              <h5 class="has-animation">MY serivce</h5>
+              <h2 class="has-animation">
+                Transforming Ideas into <br>
+                Stunning Digital Realities!
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerid="service">
+              <span>
+                <img src="svg/website-design.svg" alt="service" class="svg w-100">
+              </span>
+              <h3>Website Design</h3>
+              <p>
+              I am a talented web designer with a keen eye for aesthetics and usability. I specialize in creating visually compelling and user-friendly websites that enhance the online presence of brands.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerid="service">
+              <span>
+                <img src="svg/logo-design.svg" alt="service" class="svg w-100">
+              </span>
+              <h3>Logo Design</h3>
+              <p>
+                I am a creative logo designer dedicated to helping brands establish their identity through striking visual elements
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerid="service">
+              <span>
+                <img src="svg/app-development.svg" alt="service" class="svg w-100">
+              </span>
+              <h3>Web Development</h3>
+              <p>
+                As a developer,I bring technical expertise and a problem-solving mindset to every project. Proficient in HTML, CSS, and Bootstrap, I build robust and responsive websites that deliver an optimal user experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        SERVICE END
+    =================================-->
+
+    <!--================================
+        ABOUT START
+    =================================-->
+    <section class="tf__about pt_140 xs_pt_80" id="about">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xxl-7 col-lg-6 col-xl-6">
+            <div class="tf__section_heading pb_80 xs_pb_50">
+              <h5 class="has-animation">About Me</h5>
+              <h2 class="has-animation">
+                Crafting digital experiences that inspire and connect—one pixel at a time
+              </h2>
+            </div>
+            <div class="tf__about_text">
+              <p>
+                Hello! I'm Prosper Owolabi, a passionate web designer, logo designer, and developer dedicated to bringing ideas to life through innovative digital solutions. With a strong foundation in HTML, CSS, and Bootstrap, I create visually stunning and user-friendly websites that not only captivate audiences but also drive engagement.
+
+As a designer, I believe in the power of a strong visual identity. I work closely with clients to understand their vision and craft unique logos that resonate with their brand values. My designs are not just about aesthetics; they tell a story and create a lasting impression.
+              </p>
+              <a class="common_btn" href="cv.pdf">Download Cv <i class="fa-solid fa-arrow-down-to-line"></i></a>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-lg-6 col-xl-6">
+            <div class="tf__about_img fade_right" data-trigerid="about">
+              <img src="images/only logo.png" alt="jepp" class="img-fluid w-100">
+              <!-- <div class="tf__about_img_text">
+                <i class="fas fa-chart-pie-alt"></i>
+                <div class="tf__about_content">
+                  <h4>Daily Activity</h4>
+                  <p>Loream is ispam</p>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        ABOUT END
+    =================================-->
+
+    <!--================================
+        DESIGN START
+    =================================-->
+    <section class="tf__design mt_135 xs_mt_40 mb_120 xs_mb_80" id="counter">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__design_text">
+              <h2>Design <span>and Develop</span></h2>
+              <p class="">
+                I take pride in my portfolio, which showcases a variety of completed projects that highlight my skills in web design, logo design, and development. Each project is a testament to my commitment to quality, creativity, and attention to detail.
+
+From responsive websites that provide seamless user experiences across devices to unique logos that capture the essence of a brand, my work reflects a deep understanding of both aesthetics and functionality. I have developed e-commerce platforms that not only look appealing but also offer robust features, enhancing the online shopping journey for users.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-xl-6 col-md-6">
+                <div class="tf__design_counter fade_left" data-trigerid="counter">
+                  <span class="icon">
+                    <img src="svg/complete-project.svg" alt="counter" class="svg img-fluid w-100">
+                  </span>
+                  <h3><span class="counter">1</span>k+</h3>
+                  <p>Complete project</p>
+                </div>
+              </div>
+              <div class="col-xl-6 col-md-6">
+                <div class="tf__design_counter fade_left" data-trigerid="counter">
+                  <span class="icon">
+                    <img src="svg/client-review.svg" alt="counter" class="img-fluid w-100 svg">
+                  </span>
+                  <h3><span class="counter">800</span>+</h3>
+                  <p>Client review</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__design_form">
+              <h2 class="has-animation">GET TOUCH ME?</h2>
+              <p class="">
+                I will love to hear from you! Whether you have a question, need assistance, or want to discuss a potential project, feel free to reach out. I am here to help and i'm committed to providing you with the best possible support.
+
+You can contact me through the form below, or connect with me via email or phone. I look forward to collaborating with you and bringing your ideas to life!
+              </p>
+              <form action="#">
+                <input class="" type="text" placeholder="Your Name">
+                <input class="" type="email" placeholder="Your Email">
+                <input class="" type="text" placeholder="Phone Number">
+                <textarea class="" rows="4" placeholder="Message"></textarea>
+                <button type="submit" class="common_btn">submit now</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        DESIGN END
+    =================================-->
+
+    <!--================================
+        SKILLS START
+    =================================-->
+    <section class="tf__skills pt_115 xs_pt_75 pb_70 xs_pb_30" id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-10 col-lg-8 m-auto mb_60">
+            <div class="tf__section_heading mb_40">
+              <h5 class="has-animation">Education & Skill</h5>
+              <h2 class="has-animation">
+                Showcasing my skills <br>
+                
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".13">
+              <!-- <span>2014 - 2018</span> -->
+              <h3>Wordpress Developer</h3>
+              <p>
+                As a WordPress designer, I leverage the platform’s versatility to create customized websites that reflect brand identity while providing an intuitive user experience. I excel in utilizing themes and plugins to enhance functionality, making it easy for clients to manage their content effortlessly.  
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <!-- <span>2012 - 2014</span> -->
+              <h3>Frontend Developer</h3>
+              <p>
+                As a web developer, I combine technical expertise with a creative flair to build responsive and user-friendly websites that meet the unique needs of clients. My proficiency in HTML, CSS, and JavaScript ensures that each project is not only visually appealing but also functionally robust.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <!-- <span>2005 - 2009</span> -->
+              <h3>Inspire Polytechnic</h3>
+              <p>
+                I am currently a student at Inspire Polytechnic, where I am pursuing a National Diploma (ND) in Computer Science. My time here has been incredibly enriching, allowing me to deepen my understanding of various technologies and design principles.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <!-- <span>2009 - 2012</span> -->
+              <h3>Graphics Design</h3>
+              <p>
+                In the realm of graphic design, I bring ideas to life through compelling visuals. From logos to marketing materials, I craft designs that communicate messages effectively and resonate with target audiences. My holistic approach to design and development ensures that every project is cohesive, engaging, and tailored to achieve client goals.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <p>HTML</p>
+              <div id="bar1" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="75"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <p>Wordpress</p>
+              <div id="bar2" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="90"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <p>CSS</p>
+              <div id="bar3" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="80"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <p>CorelDraw</p>
+              <div id="bar4" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="70"></span>
+              </div>
+            </div>
+          </div>
+         
+          
+          
+        </div>
+      </div>
+    </section>
+    <!--================================
+        SKILLS END
+    =================================-->
+
+    <!--================================
+        PORTFOLIO START
+    =================================-->
+   
+    <!--================================
+        PORTFOLIO END
+    =================================-->
+
+    <!--================================
+        TESTIMONIAL START
+    =================================-->
+    <section class="tf__testimonial pt_115 xs_pt_75">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 m-auto mb_30">
+            <div class="tf__section_heading">
+              <h5 class="has-animation">clients review</h5>
+              <h2 class="has-animation">My testomonial</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row testi_slider">
+          <div class="col-xl-6">
+            <div class="tf__single_testimonial">
+              <div class="img">
+                <!-- <img src="images/testimonial1.jpg" alt="clients" class="img-fluid w-100"> -->
+              </div>
+              <p class="rating">
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+              </p>
+              <h3>Tunde Adeyemi</h3>
+              <!-- <h5>Marketing Coordinator</h5> -->
+              <p class="description">
+                I can't thank Jepp Creations enough for their outstanding work! They delivered a fantastic website that is both functional and visually appealing. The team was supportive and made sure all my needs were met.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="tf__single_testimonial">
+              <div class="img">
+                <!-- <img src="images/testimonial/2.jpg" alt="clients" class="img-fluid w-100"> -->
+              </div>
+              <p class="rating">
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+              </p>
+              <h3>Fatima Ibrahim</h3>
+              <!-- <h5>Marketing Coordinator</h5> -->
+              <p class="description">
+                Collaborating with Jepp Creations was a delight! They created a beautiful logo and website for my startup that perfectly captures our vision. Their creativity and professionalism made the entire process enjoyable.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="tf__single_testimonial">
+              <div class="img">
+                <!-- <img src="images/testimonial/1.jpg" alt="clients" class="img-fluid w-100"> -->
+              </div>
+              <p class="rating">
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+              </p>
+              <h3>Emeka Nwosu</h3>
+              <!-- <h5>Marketing Coordinator</h5> -->
+              <p class="description">
+                Working with Jepp Creations was a game-changer for my business. Their attention to detail and creativity transformed my website into a stunning platform that truly represents my brand. Highly recommend!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        TESTIMONIAL END
+    =================================-->
+
+    <!--================================
+        BRAND START
+    =================================-->
+    <div class="tf__brand mt_120 xs_mt_80">
+      <div class="row">
+        <div class="col-12">
+          <div class="marquee_animi">
+            <ul>
+              <li>* jepp</li>
+              <li>* css</li>
+              <li>* html</li>
+              <li>* bootstrap</li>
+              <li>* js</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--================================
+        BRAND END
+    =================================-->
+
+    <!--================================
+        BLOG START
+    =================================-->
+    
+    <!--================================
+        BLOG END
+    =================================-->
+    <!--================================
+        SUBSCRIBE START
+    =================================-->
+    <div class="tf__subscribe" style="background: url(images/bg/subscribe.jpg)">
+      <div class="tf__subscribe_overlay pt_115 xs_pt_75 pb_120 xs_pb_80">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-8 col-md-10 m-auto">
+              <div class="tf__subscribe_text">
+                <h3 class="has-animation">SUBSCRIBE MY NEWSLETTER</h3>
+                <form action="#" class="">
+                  <input type="text" placeholder="Enter Your Email">
+                  <button type="submit" class="common_btn">Notify Now</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--================================
+SUBSCRIBE END
+=================================-->
+
+    <!--================================
+        FOOTER START
+    =================================-->
+    <footer class="footer" id="footer">
+      <div class="footer-container">
+        <div class="pt_120 xs_pt_80 sm_pt_80">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="tf__footer_content fade_right" data-trigerid="footer" data-stagger=".25">
+                  <div class="icon">
+                    <div class="icon-contianer">
+                      <img src="svg/map.svg" alt="footer" class="img-fluid w-100 svg">
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>Address</h3>
+                    <p>15, Karimu Laka Street, Egbeda, Lagos, Nigeria.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="tf__footer_content fade_right" data-trigerid="footer" data-stagger=".25">
+                  <div class="icon">
+                    <div class="icon-contianer">
+                      <img src="svg/phone.svg" alt="footer" class="img-fluid w-100 svg">
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>Lets talk us</h3>
+                    <a href="">(+234) 806-962-3404</a>
+                    <a href="">(+234) 906-895-6672</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="tf__footer_content fade_right" data-trigerid="footer" data-stagger=".25">
+                  <div class="icon">
+                    <div class="icon-contianer">
+                      <img src="svg/envelope.svg" alt="footer" class="img-fluid w-100 svg">
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>Send us email</h3>
+                    <a href="mailto:perespade1@gmail.com">perespade1@gmail.com</a>
+                    <a href="mailto:karlkid04@gmail.com">karlkid04@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="tf__footer_copyright">
+                  <p>© Jeppcreations 2024 | All Rights Reserved</p>
+                  <ul>
+                    <li>
+                      <a href="#" class="text_hover_animaiton">Terms & Condition</a>
+                    </li>
+                    <li>
+                      <a href="#" class="text_hover_animaiton">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="#" class="text_hover_animaiton">Sitemap</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--================================
+  FOOTER END
+=================================-->
+    <!--================================
+        SCROLL BUTTON START
+    =================================-->
+    <div class="progress active c-pointer">
+      <svg class="progress-svg" width="100%" height="100%" viewbox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+      </svg>
+    </div>
+    <!--================================
+        SCROLL BUTTON END
+    =================================-->
+
+    <!--================================
+        CURSOR START
+    =================================-->
+    <div id="magic-cursor">
+      <div id="ball"></div>
+    </div>
+    <!--================================
+        CURSOR END
+    =================================-->
+
+    <script src="js/plugin.js"></script>
+    <!--scroll button js-->
+    <script src="js/scroll_button.js"></script>
+    <!--sticky sidebar js-->
+    <script src="js/sticky_sidebar.js"></script>
+    <!-- Animation -->
+    <script src="js/animation.js"></script>
+    <!--main/custom js-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
